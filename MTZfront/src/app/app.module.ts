@@ -7,13 +7,15 @@ import { LoginPageComponent } from './login-page/login-page.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { MainCardsComponent } from './main-cards/main-cards.component';
 import { LandingPageComponent } from './landing-page/landing-page.component';
+import { PaymentBrickComponent } from './payment-brick/payment-brick.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginPageComponent,
     MainCardsComponent,
-    LandingPageComponent
+    LandingPageComponent,
+    PaymentBrickComponent
   ],
   imports: [
     BrowserModule,
