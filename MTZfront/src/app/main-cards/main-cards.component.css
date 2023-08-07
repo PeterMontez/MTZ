@@ -15,14 +15,21 @@
 }
 
 .info-card {
-  position: relative;
-  background-color: #102770;
-  margin: auto;
-  margin-top: 7%;
-  height: 80%;
-  width: 80%;
-  border: #0c1c00;
+  background-color: #ffffff38;
+  margin-top: 10%;
+  width: 90%;
+  box-shadow: 0 30px 60px  rgba(37, 43, 51, 0.5);
+  transition: 0.3s;
+}
 
+/* On mouse-over, add a deeper shadow */
+.info-card:hover {
+  box-shadow: 0 30px 60px  rgba(37, 43, 51, 0.8);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
 }
 
 .screen-divs {
@@ -43,6 +50,8 @@
 
 .screen-right {
   position: relative;
+  justify-content: center;
+  align-items: center;
   margin-right: 2%;
   width: 38%;
   float: left;
