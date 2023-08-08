@@ -8,6 +8,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { MainCardsComponent } from './main-cards/main-cards.component';
 import { LandingPageComponent } from './landing-page/landing-page.component';
 import { PaymentBrickComponent } from './payment-brick/payment-brick.component';
+import { ProductPageComponent } from './product-page/product-page.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { PaymentBrickComponent } from './payment-brick/payment-brick.component';
     LoginPageComponent,
     MainCardsComponent,
     LandingPageComponent,
-    PaymentBrickComponent
+    PaymentBrickComponent,
+    ProductPageComponent
   ],
   imports: [
     BrowserModule,

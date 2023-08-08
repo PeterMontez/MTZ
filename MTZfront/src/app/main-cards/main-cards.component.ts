@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./main-cards.component.css']
 })
 export class MainCardsComponent {
+  input : any;
 
+  printinput() {
+    
+  }
 }
