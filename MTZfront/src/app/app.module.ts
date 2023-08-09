@@ -9,6 +9,7 @@ import { MainCardsComponent } from './main-cards/main-cards.component';
 import { LandingPageComponent } from './landing-page/landing-page.component';
 import { PaymentBrickComponent } from './payment-brick/payment-brick.component';
 import { ProductPageComponent } from './product-page/product-page.component';
+import { AddOnsCardComponent } from './add-ons-card/add-ons-card.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { ProductPageComponent } from './product-page/product-page.component';
     MainCardsComponent,
     LandingPageComponent,
     PaymentBrickComponent,
-    ProductPageComponent
+    ProductPageComponent,
+    AddOnsCardComponent
   ],
   imports: [
     BrowserModule,

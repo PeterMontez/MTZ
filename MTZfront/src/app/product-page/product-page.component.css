@@ -1,0 +1,47 @@
+.bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    z-index: 0;
+    background-image: url(../../assets/img/BG.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    filter: blur(5px);
+    opacity: 70%;
+  }
+  
+  .screen-divs {
+    position: inherit;
+    z-index: 2;
+    padding: 20px;
+  }
+  
+  .screen-left {
+    position: relative;
+    top: -5vh;
+    z-index: 2;
+    margin-left: 2%;
+    width: 58%;
+    float: left;
+    padding: 20px;
+  }
+  
+  .screen-right {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2%;
+    width: 38%;
+    float: left;
+    padding: 20px;
+    object-fit: contain;
+  }
+  
+  .cards {
+    position: relative;
+    left: -20vw;
+  }
+  
